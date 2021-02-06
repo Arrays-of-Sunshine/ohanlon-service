@@ -1,5 +1,6 @@
 # CSV File
-data.csv
+/seed/
+
 
 # Config File
 .env

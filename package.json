@@ -1,0 +1,29 @@
+{
+  "name": "ohanlon-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "data": "node ./db/writeToCsv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrays-of-Sunshine/ohanlon-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrays-of-Sunshine/ohanlon-service/issues"
+  },
+  "homepage": "https://github.com/Arrays-of-Sunshine/ohanlon-service#readme",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^5.3.1",
+    "pg": "^8.5.1"
+  }
+}

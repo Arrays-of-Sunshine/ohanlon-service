@@ -11,3 +11,10 @@
 
 **Load Schema**
 - 'psql -d sdc -a -f schema.sql'
+
+**Create Mock Data**
+- `npm run data`
+
+**Seed DB**
+- `npm run seed`
+
